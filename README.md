@@ -2,9 +2,11 @@ IR_Final_project
 =====================
 IR Question answering Bot
 ---------------------------------------
+### Main Function
+
 * Segmentation 
-* Stemming
-* Calculating 
+* Filtering 
+* Intersect the Resultants 
 
 ------------------------
 For example:
@@ -29,8 +31,5 @@ Result:
 3. [('B', 29326.000000000015), ('A', 4.600000000000001), ('C', 0)]
 
 ========================================
-.
-.
-.
 
 ```
