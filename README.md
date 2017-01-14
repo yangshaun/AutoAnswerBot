@@ -1,6 +1,6 @@
 IR_Final_project
 =====================
-This is What I have Done during IR lession
+IR Question answering Bot
 ---------------------------------------
 * Segmentation 
 * Stemming
@@ -28,5 +28,8 @@ Result:
 3. [('B', 29326.000000000015), ('A', 4.600000000000001), ('C', 0)]
 
 ========================================
+.
+.
+.
 
 ```
