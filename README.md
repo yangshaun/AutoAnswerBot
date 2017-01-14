@@ -10,7 +10,7 @@ IR Question answering Bot
 For example:
 ```js
 
-python directed_answer_from_db.py
+~$ python directed_answer_from_db.py
 ```
 Result:
 ```js
