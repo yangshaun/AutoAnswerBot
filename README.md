@@ -5,6 +5,7 @@ IR Question answering Bot
 * Segmentation 
 * Stemming
 * Calculating 
+
 ------------------------
 For example:
 ```js
