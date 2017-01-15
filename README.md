@@ -14,6 +14,19 @@ For example:
 
 ~$ python directed_answer_from_db.py
 ```
+
+Questions:
+```json
+{
+        "Question": "台灣搖滾樂團第一把交椅，號稱亞洲天團的五月天，他們的主唱是?",
+        "A": "楊宗緯",
+        "B": "阿信",
+        "C": "林俊傑",
+        "Answer : ": "B"
+}
+
+```
+
 Result:
 ```js
 ========================================
