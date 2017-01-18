@@ -9,7 +9,7 @@ This is just an exmaple for that project, not an exactly optimal solution.
 * Jieba
 * OpenCC
 
-### Offline Process 
+## Offline Process 
 
 1. According to the requirement of project, you need to download the json file right here [Wiki.json](https://drive.google.com/open?id=0ByoB_9NkZ9rRa3VUY25TeXRtdnM)
 
@@ -27,7 +27,7 @@ This is just an exmaple for that project, not an exactly optimal solution.
 	~$ python Inverted.py
 	```
 
-### Answering 
+## Answering 
 
 1. Reside the `questions.json` from [IRFinalProject](https://github.com/UDICatNCHU/IRFinalProject) in your current directrory
 
@@ -37,41 +37,62 @@ This is just an exmaple for that project, not an exactly optimal solution.
 	~$ python directed_answer_from_db
 
 	```
-#### Result
 
-	```python
+## Result
 
-	地中海  yes
-	瑞士  yes
-	歐洲  yes
-	列支敦斯登  yes
-	維尼亞  yes
-	中心  yes
-	奧地利  yes
-	細分  yes
-	部分  yes
-	交界處  yes
-	邊界  yes
-	白朗峯  yes
-	法國  yes
-	阿爾卑斯山  yes
-	山口  yes
-	自治區  yes
-	布勒  yes
-	奧斯特  yes
-	山脈  yes
-	斯洛  yes
-	德國  yes
-	義大利  yes
-	----------------答案------------------
-	八卦山有結果
-	阿爾卑斯山 有結果
-	合歡山 有結果
-	200. [('B', 166137.2631578964), ('A', 2.631578947368421), ('C', 2.31578947368421)]
-	======================================================
-	['B', 'C', 'B', 'A', 'C', 'A', 'A', 'C', 'B', 'B', 'A', 'C', 'C', 'B', 'A', 'B', 'A', 'C', 'B', 'B', 'C', 'A', 'C', 'A', 'A', 'C', 'B', 'C', 'A', 'B', 'C', 'A', 'C', 'C', 'A', 'B', 'A', 'C', 'B', 'A', 'B', 'C', 'A', 'B', 'A', 'C', 'A', 'B', 'A', 'C', 'C', 'B', 'B', 'A', 'C', 'B', 'B', 'B', 'B', 'A', 'A', 'B', 'C', 'C', 'C', 'C', 'B', 'C', 'B', 'A', 'B', 'C', 'B', 'C', 'B', 'B', 'B', 'A', 'B', 'C', 'A', 'A', 'B', 'A', 'C', 'C', 'B', 'C', 'A', 'C', 'B', 'C', 'A', 'A', 'B', 'A', 'A', 'C', 'B', 'C', 'C', 'A', 'B', 'B', 'A', 'A', 'C', 'B', 'B', 'A', 'C', 'B', 'B', 'B', 'A', 'A', 'A', 'C', 'B', 'A', 'B', 'B', 'A', 'C', 'C', 'A', 'B', 'A', 'B', 'A', 'A', 'B', 'B', 'C', 'C', 'B', 'A', 'B', 'C', 'A', 'A', 'C', 'A', 'A', 'B', 'C', 'B', 'A', 'A', 'C', 'A', 'A', 'B', 'A', 'B', 'A', 'A', 'B', 'C', 'A', 'A', 'B', 'A', 'C', 'A', 'A', 'B', 'A', 'C', 'C', 'C', 'C', 'A', 'C', 'A', 'C', 'B', 'C', 'A', 'B', 'A', 'C', 'B', 'A', 'C', 'A', 'A', 'A', 'B', 'B', 'B', 'C', 'C', 'A', 'A', 'B', 'B', 'B', 'B', 'B']
+### Question
 
-	```
+
+
+```json
+
+{
+    "Question": "是一座位於歐洲中心的山脈，它覆蓋了義大利北部邊界、法國東南部、瑞士、列支敦斯登、奧地利、德國南部及斯洛維尼亞。它可以被細分為三個部分，從地中海到白朗峰的西阿爾卑斯山，從奧斯特谷（義大利西北部一自治區）到布勒內山口（奧地利和義大利交界處）的中阿爾卑斯山，從布勒內山口到斯洛維尼亞的東阿爾卑斯山。",
+    "A": "八卦山",
+    "B": "阿爾卑斯山",
+    "C": "合歡山"
+}
+
+
+```
+
+### Answer
+
+
+
+```python
+
+地中海  yes
+瑞士  yes
+歐洲  yes
+列支敦斯登  yes
+維尼亞  yes
+中心  yes
+奧地利  yes
+細分  yes
+部分  yes
+交界處  yes
+邊界  yes
+白朗峯  yes
+法國  yes
+阿爾卑斯山  yes
+山口  yes
+自治區  yes
+布勒  yes
+奧斯特  yes
+山脈  yes
+斯洛  yes
+德國  yes
+義大利  yes
+----------------答案------------------
+八卦山有結果
+阿爾卑斯山 有結果
+合歡山 有結果
+200. [('B', 166137.2631578964), ('A', 2.631578947368421), ('C', 2.31578947368421)]
+======================================================
+['B', 'C', 'B', 'A', 'C', 'A', 'A', 'C', 'B', 'B', 'A', 'C', 'C', 'B', 'A', 'B', 'A', 'C', 'B', 'B', 'C', 'A', 'C', 'A', 'A', 'C', 'B', 'C', 'A', 'B', 'C', 'A', 'C', 'C', 'A', 'B', 'A', 'C', 'B', 'A', 'B', 'C', 'A', 'B', 'A', 'C', 'A', 'B', 'A', 'C', 'C', 'B', 'B', 'A', 'C', 'B', 'B', 'B', 'B', 'A', 'A', 'B', 'C', 'C', 'C', 'C', 'B', 'C', 'B', 'A', 'B', 'C', 'B', 'C', 'B', 'B', 'B', 'A', 'B', 'C', 'A', 'A', 'B', 'A', 'C', 'C', 'B', 'C', 'A', 'C', 'B', 'C', 'A', 'A', 'B', 'A', 'A', 'C', 'B', 'C', 'C', 'A', 'B', 'B', 'A', 'A', 'C', 'B', 'B', 'A', 'C', 'B', 'B', 'B', 'A', 'A', 'A', 'C', 'B', 'A', 'B', 'B', 'A', 'C', 'C', 'A', 'B', 'A', 'B', 'A', 'A', 'B', 'B', 'C', 'C', 'B', 'A', 'B', 'C', 'A', 'A', 'C', 'A', 'A', 'B', 'C', 'B', 'A', 'A', 'C', 'A', 'A', 'B', 'A', 'B', 'A', 'A', 'B', 'C', 'A', 'A', 'B', 'A', 'C', 'A', 'A', 'B', 'A', 'C', 'C', 'C', 'C', 'A', 'C', 'A', 'C', 'B', 'C', 'A', 'B', 'A', 'C', 'B', 'A', 'C', 'A', 'A', 'A', 'B', 'B', 'B', 'C', 'C', 'A', 'A', 'B', 'B', 'B', 'B', 'B']
+
+```
 
 
 ## Authors
