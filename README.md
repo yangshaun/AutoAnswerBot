@@ -29,7 +29,7 @@ This is just an exmaple for that project, not an exactly optimal solution.
 
 ## Answering 
 
-1. Reside the `questions.json` from [IRFinalProject](https://github.com/UDICatNCHU/IRFinalProject) in your current directrory
+1. Reside the `questions.json` from [IRFinalProject](https://github.com/UDICatNCHU/IRFinalProject) in your current directory
 
 2. Execute `directed_answer_from_db`
 
