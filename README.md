@@ -1,7 +1,5 @@
 #IR Final Project Little Answering Bot
 
-This is just an exmaple for that project, not an exactly optimal solution.
-
 ## Getting Started
 
 ### Requirement 
