@@ -1,4 +1,3 @@
-#IR Final Project Little Answering Bot
 
 ## Getting Started
 
